@@ -34,3 +34,13 @@ function appendKitten(newKitten) {
 function prependKitten(newKitten) {
   return [newKitten].concat(kittens);
 }
+
+// removes the last item from kittens array without modifying it
+function removeLastKitten() {
+  return kittens.slice(0,kittens.length - 1);
+}
+
+// removes the first item from kittens array without modifying it
+function removeFirstKitten() {
+  return kittens.slice(1);
+}
