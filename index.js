@@ -32,5 +32,5 @@ function appendKitten(newKitten) {
 
 // prepends an item to the beginning of kittens array without modifying it
 function prependKitten(newKitten) {
-  return newKitten.concat(kittens);
+  return [newKitten].concat(kittens);
 }
