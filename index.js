@@ -12,3 +12,15 @@ function destructivelyPrependKitten(newKitten) {
   kittens.unshift(newKitten);
   return kittens;
 }
+
+// modifies kittens array by removing its last item
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
+  return kittens;
+}
+
+// modifies kittens array by removing its first item
+function destructivelyRemoveFirstKitten() {
+  kittens.shift();
+  return kittens;
+}
