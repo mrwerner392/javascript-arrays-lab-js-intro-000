@@ -24,3 +24,8 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift();
   return kittens;
 }
+
+// appends an item to kittens array without modifying it
+function appendKitten(newKitten) {
+  return kittens.concat(newKitten);
+}
