@@ -25,7 +25,12 @@ function destructivelyRemoveFirstKitten() {
   return kittens;
 }
 
-// appends an item to kittens array without modifying it
+// appends an item to the end of kittens array without modifying it
 function appendKitten(newKitten) {
   return kittens.concat(newKitten);
+}
+
+// prepends an item to the beginning of kittens array without modifying it
+function prependKitten(newKitten) {
+  return [newKitten].concat(kittens);
 }
